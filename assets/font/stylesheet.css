@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-BoldItalic.woff2') format('woff2'),
+        url('CerebriSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Bold.woff2') format('woff2'),
+        url('CerebriSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Bold.woff2') format('woff2'),
+        url('CerebriSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-ExtraBold.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-BoldItalic.woff2') format('woff2'),
+        url('CerebriSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-ExtraBold.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro ExBold';
+    src: url('CerebriSansPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-ExtraLight.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-ExtraLight.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Heavy.woff2') format('woff2'),
+        url('CerebriSansPro-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro ExLight';
+    src: url('CerebriSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url('CerebriSansPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Heavy.woff2') format('woff2'),
+        url('CerebriSansPro-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-HeavyItalic.woff2') format('woff2'),
+        url('CerebriSansPro-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Italic.woff2') format('woff2'),
+        url('CerebriSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-HeavyItalic.woff2') format('woff2'),
+        url('CerebriSansPro-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Light.woff2') format('woff2'),
+        url('CerebriSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Italic.woff2') format('woff2'),
+        url('CerebriSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-LightItalic.woff2') format('woff2'),
+        url('CerebriSansPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Light.woff2') format('woff2'),
+        url('CerebriSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Medium.woff2') format('woff2'),
+        url('CerebriSansPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-MediumItalic.woff2') format('woff2'),
+        url('CerebriSansPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-LightItalic.woff2') format('woff2'),
+        url('CerebriSansPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Regular.woff2') format('woff2'),
+        url('CerebriSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Medium.woff2') format('woff2'),
+        url('CerebriSansPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-MediumItalic.woff2') format('woff2'),
+        url('CerebriSansPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('CerebriSansPro-Regular.woff2') format('woff2'),
+        url('CerebriSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
