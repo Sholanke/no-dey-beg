@@ -47,3 +47,24 @@ function activateNode(indexToActivate, nodeArray, className = "active") {
   });
   nodeArray[indexToActivate].classList.add(className);
 }
+
+function moveToNextProject() {
+  goToNextProject();
+  shiftBackground();
+  updateProjectInterface();
+  moveProjectThumb();
+}
+
+function moveToPrevious() {
+  goToPreviousProject();
+  shiftBackground();
+  updateProjectInterface();
+  moveProjectThumb();
+}
+
+window.addEventListener("keydown", (event) => {
+  const goRight = event.keyCode === 39 || event.keyCode === 40;
+  const goLeft = event.keyCode === 37 || event.keyCode === 38;
+  goRight && moveToNextProject();
+  goLeft && moveToPrevious();
+});

@@ -13,4 +13,3 @@ The challenge was not to just re-create the web page, but to re-create it using 
 ![Screen Shot](/page-shots/shot-3.png)
 
 ![Screen Shot](/page-shots/shot-4.png)
-
