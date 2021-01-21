@@ -492,7 +492,7 @@ main {
   height: 100px;
   width: 100px;
   display: block;
-  border: 1px solid rgba(255, 255, 255, 0.638);
+  border: 2px solid rgba(0, 255, 184, 0.538);
   position: absolute;
   border-radius: 100vh;
   -webkit-animation-duration: 1s;
@@ -546,19 +546,19 @@ main {
 }
 
 .project_two .image_holder span:nth-child(2) {
-  border: 1px solid rgba(255, 255, 255, 0.485);
+  border: 2px solid rgba(0, 255, 184, 0.385);
 }
 
 .project_two .image_holder span:nth-child(3) {
-  border: 1px solid rgba(255, 255, 255, 0.321);
+  border: 2px solid rgba(0, 255, 184, 0.221);
 }
 
 .project_two .image_holder span:nth-child(4) {
-  border: 1px solid rgba(255, 255, 255, 0.26);
+  border: 2px solid rgba(0, 255, 184, 0.16);
 }
 
 .project_two .image_holder span:nth-child(5) {
-  border: 1px solid rgba(255, 255, 255, 0.075);
+  border: 2px solid rgba(0, 255, 184, 0.075);
 }
 
 .project_two .image_holder .center_icon {
