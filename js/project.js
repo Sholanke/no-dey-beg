@@ -1,8 +1,17 @@
 const projectNodes = Array.from(document.querySelectorAll("._project"));
 const projectThumb = document.querySelector("._project_thumb");
+const indexNode = document.querySelector(".js_project_index");
+const lineBgNode = document.querySelector(".line_bg");
 const projectThumbNumbers = Array.from(
   document.querySelectorAll(".js__project_thumb__num")
 );
+let activeProjectIndex = 0;
+
+const wheelEventHandler = debouncer(updateInterface, 40);
+
+window.addEventListener("wheel", (event) => {
+  wheelEventHandler(event);
+});
 
 function updateInterface(event) {
   updateProjectIndex(event);
@@ -63,8 +72,19 @@ function moveToPrevious() {
 }
 
 window.addEventListener("keydown", (event) => {
-  const goRight = event.keyCode === 39 || event.keyCode === 40;
-  const goLeft = event.keyCode === 37 || event.keyCode === 38;
+  const rightKeyCodes = [39, 40];
+  const leftKeyCodes = [38, 37];
+  const goRight = rightKeyCodes.includes(event.keyCode);
+  const goLeft = leftKeyCodes.includes(event.keyCode);
   goRight && moveToNextProject();
   goLeft && moveToPrevious();
+});
+
+projectThumbNumbers.forEach((numberNode, index) => {
+  numberNode.addEventListener("click", () => {
+    activeProjectIndex = index;
+    shiftBackground();
+    updateProjectInterface();
+    moveProjectThumb();
+  });
 });

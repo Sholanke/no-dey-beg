@@ -11,10 +11,11 @@
     <main>
       <nav class="_navigation_bar">
         <p class="logo">NoDeyBeg</p>
-        <p>
+        <p class="_faint">
           By
           <a href="https://twitter.com/Olamidaay/" target="_blank"
-            >Sholanke Olamide</a
+            >Sholanke Olamide <span role="img" aria-label="dancing-woman">✌🏽</span></span
+            ></a
           >
         </p>
       </nav>
@@ -133,7 +134,7 @@
           <h1 class="animated_down__wrapper">
             <span class="animated_down"
               >Urgent 2k again
-              <span role="img" aria-label="dancing-woman">💃🏽</span></span
+              <span role="img" aria-label="heart-break">💔</span></span
             >
           </h1>
           <span class="animated_down _description">
@@ -182,20 +183,13 @@
       </div>
     </main>
 
+    <div class="_mobile_message">Not yet responsive, Jezz, I mean it's just a clone man!</div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="./js/debouncer.js"></script>
     <script src="./js/project.js"></script>
     <script>
-      const indexNode = document.querySelector(".js_project_index");
-      const lineBgNode = document.querySelector(".line_bg");
-      let activeProjectIndex = 0;
-
-      // ------- handel wheel event -------
-      const wheelEventHandler = debouncer(updateInterface, 40);
-
-      window.addEventListener("wheel", (event) => {
-        wheelEventHandler(event);
-      });
+    
     </script>
   </body>
 </html>
